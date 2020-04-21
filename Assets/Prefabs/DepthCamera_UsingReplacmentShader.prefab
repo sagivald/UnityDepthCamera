@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5709879044575247865
+--- !u!1 &225441891930346342
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,9 +8,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5709879044575247868}
-  - component: {fileID: 5709879044575247871}
-  - component: {fileID: 5709879044250007759}
+  - component: {fileID: 225441891930346339}
+  - component: {fileID: 225441891930346336}
+  - component: {fileID: 225441891930346337}
   m_Layer: 0
   m_Name: DepthCamera
   m_TagString: Untagged
@@ -18,13 +18,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5709879044575247868
+--- !u!4 &225441891930346339
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5709879044575247865}
+  m_GameObject: {fileID: 225441891930346342}
   m_LocalRotation: {x: 0.051648863, y: -0.7037473, z: 0.051432963, w: 0.7067014}
   m_LocalPosition: {x: 5.39, y: 2.66, z: 0.66}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -32,13 +32,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 8.36, y: -89.76, z: 0}
---- !u!20 &5709879044575247871
+--- !u!20 &225441891930346336
 Camera:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5709879044575247865}
+  m_GameObject: {fileID: 225441891930346342}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 3
@@ -56,7 +56,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 10
+  far clip plane: 9
   field of view: 89
   orthographic: 0
   orthographic size: 5
@@ -75,18 +75,17 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!114 &5709879044250007759
+--- !u!114 &225441891930346337
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5709879044575247865}
+  m_GameObject: {fileID: 225441891930346342}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b09720e8996d9254cbe34d1a6ba56239, type: 3}
+  m_Script: {fileID: 11500000, guid: 54589da4f86674a4fb7acb19baafbbb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   distance: 10
-  depthCam: {fileID: 5709879044575247871}
-  Shade: {fileID: 4800000, guid: 6d8adcd5b4b20d943ae631ce4a25a098, type: 3}
+  ReplacmentShader: {fileID: 4800000, guid: 26eda8873d8a32b45b688c11d17ee101, type: 3}
